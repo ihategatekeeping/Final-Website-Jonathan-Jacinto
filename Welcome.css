@@ -1,0 +1,61 @@
+.overlay {
+    border-image: linear-gradient(hsla(91, 100%, 20%, 0.658), hsla(111, 100%, 20%, 0.655))
+      fill 1;
+  }
+  
+  .background {
+    background-image: url(../images/premium_photo-1687525932622-b2192d27ac34.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+    min-block-size: 91vh;
+  }
+
+    html {
+      color-scheme: dark light;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      line-height: 1.6;
+    }
+  
+    body {
+        margin: 0px;
+        display: grid;
+    }
+  
+    h1 {
+      line-height: 1;
+      font-size: 100px;
+      place-content: center;
+      text-align: center;
+    }
+
+p{
+place-content: center;
+text-align: center;
+font-size: 20px ;
+    }
+
+.navbar ul{
+    list-style-type: none;
+    background-color: #7ebc89ff ;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.navbar a{
+font-weight: bold;
+color: white;
+text-decoration: none;
+padding: 15px;
+display: block;
+text-align: center;
+}
+
+.navbar a:hover{
+    background-color: black;
+}
+
+.navbar li{
+    float: left;
+}
